@@ -12,124 +12,124 @@
 }
 
 .modal-overlay {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
--ms-flex-align: center;
-align-items: center;
--webkit-box-pack: center;
--ms-flex-pack: center;
-justify-content: center;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: 9999;
-background-color: rgba(0, 0, 0, 0.6);
-opacity: 0;
-visibility: hidden;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
--webkit-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    overflow-y: auto;
 }
 .modal-overlay.active {
-opacity: 1;
-visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 .modal {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-align: center;
--ms-flex-align: center;
-align-items: center;
--webkit-box-pack: center;
--ms-flex-pack: center;
-justify-content: center;
-position: relative;
-margin: 0 auto;
-background-color: #fff;
-color: #000;
-width: 100%
-min-height: 20rem;
-padding: 50px;
-opacity: 0;
-overflow-y: auto;
-visibility: hidden;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
--webkit-transform: scale(1.2);
-transform: scale(1.2);
--webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-border-top-left-radius: 50px;
-border-bottom-right-radius: 50px;
-border: 10px solid #ef243c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+    width: 100%
+    min-height: 20rem;
+    padding: 50px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 10px solid #ef243c;
 }
 .modal .close-modal {
-position: absolute;
-cursor: pointer;
-top: 5px;
-right: 15px;
-opacity: 0;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
--webkit-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
--webkit-transition-delay: 0.3s;
-transition-delay: 0.3s;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    right: 15px;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
 }
 .modal .close-modal svg {
-width: 1.75em;
-height: 1.75em;
+    width: 1.75em;
+    height: 1.75em;
 }
 .modal .modal-content {
-opacity: 0;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
--webkit-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
--webkit-transition-delay: 0.3s;
-transition-delay: 0.3s;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
 }
 .modal.active {
-visibility: visible;
-opacity: 1;
--webkit-transform: scale(1);
-transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 .modal.active .modal-content {
-opacity: 1;
+    opacity: 1;
 }
 .modal.active .close-modal {
--webkit-transform: translateY(10px);
-transform: translateY(10px);
-opacity: 1;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    opacity: 1;
 }
 .modal-list-item {
     display: flex;
 }
 .modal-list-item p {
- margin: 0;
+   margin: 0;
 }
 .modal-list-item-number {
- position: relative;
-color: #fff;
-background: #ef243c;
-font-weight: 600;
-font-size: 15px;
-margin-right: 5px;
-border-top-left-radius: 10px;
-border-bottom-right-radius: 10px;
-font-family: 'HelveticaNeueCyr-bold';
-font-weight: 100;
-padding: 0 8px 0 8px;
-height: 24.5px;
+   position: relative;
+   color: #fff;
+   background: #ef243c;
+   font-weight: 600;
+   font-size: 15px;
+   margin-right: 5px;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   font-family: 'HelveticaNeueCyr-bold';
+   font-weight: 100;
+   padding: 0 8px 0 8px;
+   height: 24.5px;
 }
 .modal-list {
     padding-left: 0;
@@ -147,14 +147,14 @@ height: 24.5px;
     font-size: 22px;
     font-family: 'HelveticaNeueCyr-medium';
     color: #ef243c;
-     margin: 0;
+    margin: 0;
     padding-bottom: 30px;
 }
 .modal-text {
-        font-size: 22px;
+    font-size: 22px;
     font-family: 'HelveticaNeueCyr-medium';
-     margin: 0;
-     padding-bottom: 20px;
+    margin: 0;
+    padding-bottom: 20px;
 }
 .modal-list-item {
     margin-bottom: 25px;
@@ -203,17 +203,52 @@ height: 24.5px;
     color: #838383;
 }
 @media screen and (max-width: 576px){
-.modal {
-top: 0;
-left: 0;
-width: 90%;
-height: 90%;
--webkit-transform: scale(1.1);
-transform: scale(1.1);
-padding:20px;
-z-index: 101;
-}
-.modal-content {
-    padding-top: 50px;
-}
+    .modal {
+        top: 0;
+        left: 0;
+        width: 90%;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        padding: 20px;
+        z-index: 101;
+        margin: 40px auto;
+    }
+    .modal-content {
+        padding-top: 50px;
+    }
+    .modal-overlay {
+        position: relative;
+    }
+    .modal-content-title-h2 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    .modal-text-red {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .modal-text {
+        display: none;
+    }
+    .modal-list-item-number {
+        display: none;
+    }
+    .modal-list-link {
+        padding-left: 20px;
+    }
+    .d-none-item {
+        display: none;
+    }
+    .list-link-item {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .d-block-item {
+        display: block;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .d-block-item img {
+       margin-left: 0 !important;
+   }
 }
